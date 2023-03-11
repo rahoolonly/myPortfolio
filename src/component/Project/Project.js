@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Project = ({project,desc,title}) => {
+const Project = ({project,desc,title,link}) => {
   return (
     <div>
         <div  className="card">
@@ -10,9 +11,9 @@ const Project = ({project,desc,title}) => {
                   <p className="card-text">
                   {desc}
                   </p>
-                  <a href="#" className="btn btn-primary">
-                  Explore More
-                  </a>
+                  <Link target={"blank"} to={link} className="btn btn-primary">
+                  Live
+                  </Link>
                 </div>
               </div>
     </div>

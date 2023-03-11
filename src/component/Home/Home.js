@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 import profile from "../images/rahool__1_-removebg-preview.png";
 import Project from "../Project/Project";
 import project1 from "../images/Screenshot 2023-01-20 124812.png";
@@ -37,6 +38,7 @@ const Home = () => {
                 project={project1}
                 desc={"This a Typing Master. You can check your typing speed"}
                 title={"Typing Master"}
+                link={"https://rahoolonly.github.io/Typing-Master/"}
               />
             </div>
 
@@ -47,18 +49,19 @@ const Home = () => {
                   "This a Youtube Clone Website. Here, you can watch youtube videos."
                 }
                 title={"Youthoob Clone"}
+                link={"https://youthoobonly.netlify.app/"}
               />
             </div>
           </div>
 
-          <a
+          <Link
             style={{ backgroundColor: "orange" }}
-            href="#"
+            to={'/projects'}
             id="button"
             className=" btn btn-primary"
           >
             More Projects
-          </a>
+          </Link>
         </div>
       </section>
     </div>

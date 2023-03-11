@@ -6,7 +6,7 @@ import project2 from "../images/Screenshot 2023-03-06 155306.png";
 const Projects = () => {
   return (
     <div>
-      <div style={{paddingTop:"5rem"}} className="projects  ">
+      <div style={{ paddingTop: "5rem" }} className="projects  ">
         <h3 className="projectHeading">Projects</h3>
 
         <div className="row mt-4 g-5">
@@ -28,7 +28,6 @@ const Projects = () => {
             />
           </div>
         </div>
-
       </div>
     </div>
   );
