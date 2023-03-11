@@ -1,0 +1,12 @@
+.skills{
+    margin-top: 8rem;
+    justify-content: start !important;
+    
+}
+
+.skill{
+display: flex;
+gap: 2rem;
+flex-wrap: wrap;
+margin-top: 3rem;
+}

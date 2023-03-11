@@ -1,0 +1,50 @@
+#navbar {
+  background-color: white !important;
+  padding: 3rem 12rem ;
+  
+border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+a {
+    color: #2c2f32 !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width:1300px) {
+
+    
+  #navbar {
+    padding: 3rem 10rem !important;
+  }
+
+    a {
+    color: #2c2f32 !important;
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+}
+
+@media screen and (max-width: 990px) {
+
+  #navbar {
+    padding: 3rem 3rem !important;
+  }
+
+  #navbar-logo{
+    width: 20% !important;
+      }
+
+     
+}
+
+@media screen and (max-width: 576px) {
+  #navbar {
+    padding: 2rem 1.5rem !important;
+  }
+
+  #navbar-logo{
+width: 30% !important;
+  }
+
+}
