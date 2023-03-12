@@ -5,7 +5,7 @@ import profile from "../images/rahool__1_-removebg-preview.png";
 import Project from "../Project/Project";
 import project1 from "../images/Screenshot 2023-01-20 124812.png";
 import project2 from "../images/Screenshot 2023-03-06 155306.png";
-import Footer from "../Footer/Footer";
+
 
 const Home = () => {
   return (
