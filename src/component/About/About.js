@@ -4,7 +4,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div style={{ paddingTop: "5rem" }} className="projects">
+    <div style={{ paddingTop: "5rem" }} className="about projects">
       <h3 style={{ fontSize: "3.5rem" }}>
         Hi, I'm{" "}
         <span style={{ fontSize: "5rem", color: "orange", fontWeight: "500" }}>
@@ -26,21 +26,21 @@ const About = () => {
       </p>
 
       <div className="skills">
-        <h3  className="heading">Skills</h3>
-       
-     <div className="skill">
-     <Skill skill={"React"}/>
-       <Skill skill={"Node js"}/>
-       <Skill skill={"Express"}/>
-       <Skill skill={"Bootstrap"}/>
-     </div>
+        <h3 className="heading">Skills</h3>
 
-     <div className="skill">
-     <Skill skill={"Git & Github"}/>
-       <Skill skill={"ES6"}/>
-       <Skill skill={"No SQL"}/>
-       <Skill skill={"CSS"}/>
-     </div>
+        <div className="skill">
+          <Skill skill={"React"} />
+          <Skill skill={"Node js"} />
+          <Skill skill={"Express"} />
+          <Skill skill={"Bootstrap"} />
+        </div>
+
+        <div className="skill">
+          <Skill skill={"Git & Github"} />
+          <Skill skill={"ES6"} />
+          <Skill skill={"No SQL"} />
+          <Skill skill={"CSS"} />
+        </div>
       </div>
     </div>
   );

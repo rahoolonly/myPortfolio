@@ -1,12 +1,21 @@
-.skills{
-    margin-top: 8rem;
-    justify-content: start !important;
-    
+.about {
+  height: 83vh;
 }
 
-.skill{
-display: flex;
-gap: 2rem;
-flex-wrap: wrap;
-margin-top: 3rem;
+.skills {
+  margin-top: 8rem;
+  justify-content: start !important;
+}
+
+.skill {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 400px) {
+  .about {
+    height: 142vh !important;
+  }
 }

@@ -23,7 +23,6 @@ img {
 
 
 #home {
-  height: 86vh;
   color: white;
 }
 
@@ -95,8 +94,6 @@ img {
 
   .projects {
     padding: 0rem 14rem;
-    padding-top: 12rem;
-    padding-bottom: 3rem;
   }
 
   .btn {
