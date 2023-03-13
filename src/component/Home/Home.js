@@ -6,7 +6,6 @@ import Project from "../Project/Project";
 import project1 from "../images/Screenshot 2023-01-20 124812.png";
 import project2 from "../images/Screenshot 2023-03-06 155306.png";
 
-
 const Home = () => {
   return (
     <div>
@@ -34,7 +33,7 @@ const Home = () => {
         <div className="projects  ">
           <h3 className="heading">Projects</h3>
 
-          <div className="row mt-4 g-5">
+          <div className="row mt-4 g-5 projects-container">
             <div className="col-md-6">
               <Project
                 project={project1}
@@ -58,7 +57,7 @@ const Home = () => {
 
           <Link
             style={{ backgroundColor: "orange" }}
-            to={'/projects'}
+            to={"/projects"}
             id="button"
             className=" btn btn-primary"
           >
@@ -66,7 +65,6 @@ const Home = () => {
           </Link>
         </div>
       </section>
-
     </div>
   );
 };

@@ -1,5 +1,30 @@
-@media screen and (max-width:400px) {
-    .project-container{
-        height: 130vh !important;
-    }
+.project-container {
+  height: 79vh;
+}
+
+@media screen and (max-width: 1090px) {
+  .project-container {
+    height: 83vh;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .project-container {
+    height: 85vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project-container {
+    margin-bottom: 6rem;
+    height: 100vh;
+    padding-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-container {
+    margin-bottom: 25rem;
+    height: 100vh;
+  }
 }

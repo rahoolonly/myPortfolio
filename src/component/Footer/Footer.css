@@ -7,8 +7,24 @@ footer {
 
 @media screen and (max-width: 1300px) {
   footer {
+    padding: 0rem 15rem;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  footer {
     padding: 0rem 7rem;
     padding-top: 3rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  footer {
+    padding: 0rem 7rem;
+    padding-top: 5rem;
     padding-bottom: 0.5rem;
   }
 }
@@ -16,13 +32,15 @@ footer {
 @media screen and (max-width: 576px) {
   footer {
     padding: 0rem 4rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   footer {
-    gap: 4rem !important;
+    gap: 3rem !important;
     height: 4rem;
+    padding-bottom: 0;
   }
 }

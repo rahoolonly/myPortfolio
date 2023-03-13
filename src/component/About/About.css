@@ -14,8 +14,20 @@
   margin-top: 3rem;
 }
 
+@media screen and (max-width: 576px) {
+  .about {
+    height: 85vh;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .about {
-    height: 142vh !important;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about {
+    margin-bottom: 33rem;
   }
 }

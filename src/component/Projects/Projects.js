@@ -1,15 +1,17 @@
 import React from "react";
 import Project from "../Project/Project";
-import './Projects.css'
+import "./Projects.css";
 import project1 from "../images/Screenshot 2023-01-20 124812.png";
 import project2 from "../images/Screenshot 2023-03-06 155306.png";
 
 const Projects = () => {
   return (
     <div>
-      <div style={{ paddingTop: "5rem",
-    height:"83vh" }} className="projects project-container ">
-        <h3 className="projectHeading">Projects</h3>
+      <div
+        style={{ paddingTop: "5rem" }}
+        className="projects project-container "
+      >
+        <h3 className="heading">Projects</h3>
 
         <div className="row mt-4 g-5">
           <div className="col-md-6">

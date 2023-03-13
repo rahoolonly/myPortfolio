@@ -1,21 +1,32 @@
-.contact{
-    height: 75vh;
+.contact {
+  height: 75vh;
 }
 
-.fs-4{
-    color: #2c2f32 !important;
-    font-size: 1.8rem !important;
+.fs-4 {
+  color: #2c2f32 !important;
+  font-size: 1.8rem !important;
 }
 
-@media screen and (max-width:1300px) {
-    .contact{
-        height: 83vh !important;
-    }
+@media screen and (max-width: 1300px) {
+  .contact {
+    height: 78.5vh;
+  }
 }
 
+@media screen and (max-width: 1080px) {
+  .contact {
+    height: 83vh;
+  }
+}
 
-@media screen and (max-width:400px) {
-    .contact{
-        height: 82vh !important;
-    }
+@media screen and (max-width: 767px) {
+  .contact {
+    height: 85.5vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact {
+    height: 84vh;
+  }
 }
